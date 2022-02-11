@@ -9217,7 +9217,7 @@ This name may be changed and is used by the
 {{BLOCK-FILE $@ TYPE},{forth.lab}},
 enddoc)
 _HEADER({BLOCK-FILE},{BLFL},{DOVAR}, )
-        _STRING({/usr/lib/forth.lab})
+        _STRING({forth.lab})
         _RESB(M4_FILENAMELENGTH-18)               _C{ Allow for some path}
 worddoc( {BLOCKS},{BLOCK-HANDLE},{block_handle},{---n},{},
 {Leave a file handle in forthvar({n}) .

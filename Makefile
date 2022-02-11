@@ -23,7 +23,7 @@ DESTDIR=/
 
 build: $(GEN)
 
-ci86.lina.fas :
+ci86.lina.fas : extract
 	(cd extract; \
 	ln -sf lina32.cfg lina.cfg; \
 	make -f extract.mak $@ ; \
